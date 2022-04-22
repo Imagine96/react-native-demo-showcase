@@ -16,7 +16,7 @@ const Download: React.FC<Props> = () => {
                 <p className={`${STYLES.pText} ${STYLES.blackText}`} >
                     Full source code on github
                 </p>
-                <a target="_blank" href="'https://github.com/Imagine96'" className={`${STYLES.btnPrimary} hover:transition`} >
+                <a target="_blank" href="https://github.com/Imagine96/react-native-demo-showcase" className={`${STYLES.btnPrimary} hover:transition`} >
                     Source Code
                 </a>
                 <div className={`${STYLES.flexCenter}`} >

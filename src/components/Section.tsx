@@ -20,7 +20,7 @@ const Section: React.FC<Props> = ({ showBtn, img, banner, title, description, re
                     <h1 className={`${STYLES.h1Text} ${reverse ? STYLES.blackText : STYLES.whiteText}`} > {title} </h1>
                     <p className={`${STYLES.descriptionText} ${reverse ? STYLES.blackText : STYLES.whiteText}`} > {description} </p>
                     {
-                        showBtn ? <Button assetUrl={assets.expo} link='link' styles={`${STYLES.btnBlack}`} /> : null
+                        showBtn ? <Button assetUrl={assets.expo} link='https://expo.dev/@imagine_96/myAwesomeProject?serviceType=classic&distribution=expo-go' styles={`${STYLES.btnBlack}`} /> : null
                     }
                 </div>
                 <div className={`${STYLES.flexCenter} -translate-y-10`} >
